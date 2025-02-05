@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    overflow-x: hidden; 
+}
+                  /* Banner Section  */
+.about-banner{
+   background-image: url('../images/b2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px
+}
+
+.about-banner h1{
+
+    font-size: 200px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px palevioletred;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 6%;
+}
+@media(max-width:500px){
+    .about-banner{
+        background-position: fixed;
+    }
+    .about-banner h1{
+        padding: 13%;
+        font-size: 100px;
+    }
+}
+@media(max-width:980px){
+    .about-banner{
+        background-position: fixed;
+    }
+    .about-banner h1{
+        padding: 7%;
+        font-size: 100px;
+    }
+}
+
+                  /* Text Section */
+.text-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.text-section .text{
+    width: 40%;
+    height: 300px;
+    margin-top: 15%;
+    
+    
+}
+.text-section .text h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: pink;
+    
+    
+}
+.text-section .text p{
+
+    font-size: 20px;
+    
+}
+
+.text-section .image img{
+    width: 100%;
+    height: 700px;
+    
+}
+            
+ @media (max-width:460px){
+    .text-section .text{
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+    }
+    .text-section .text h1 {
+        font-size: 15px;  
+    }
+
+    .text-section .text p {
+        font-size: 10px;  
+    }
+
+    .text-section .image img{
+        height:300px;
+        width: 100%;
+        margin-top: 30%;
+    }
+} 
+
+@media(max-width:796px){
+    
+    .text-section .text{
+        width: 100%;
+        text-align: center;
+        height: 400px;
+    }
+    
+    .text-section .image{
+        margin-top: 0;
+    }
+    .text-section .image img{
+        width: 100%;
+        height: 500px;
+    ;
+        
+    }
+}
+
+@media (max-width: 1150px) {
+    .text-section {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .text-section .text {
+        width: 80%; 
+        margin-top: 10%;  
+    }
+
+    .text-section .text h1 {
+        font-size: 30px;  
+    }
+
+    .text-section .text p {
+        font-size: 18px;  
+    }
+
+    .text-section .image img {
+        height: 400px;
+        margin-top: 0;  
+        
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .text-section {
+        flex-direction: column;  
+        align-items: center;     }
+
+    .text-section .text {
+        width: 70%;
+        margin-top: 10%;  
+    }
+
+    .text-section .text h1 {
+        font-size: 35px;  
+    }
+
+    .text-section .text p {
+        font-size: 18px; 
+    }
+
+    .text-section .image img {
+        height: 500px;  
+    }
+}

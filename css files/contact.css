@@ -1,0 +1,99 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+    background-image: url('../images/—Pngtree—vibrant\ pink\ balloons\ and\ bubbles_15222997.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .container {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-form {
+      background-image: url('../images/download.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(251, 251, 251);
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #f06;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button.submit-btn:hover {
+    background-color: #e05a92; 
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    body{
+        background-position: fixed;
+    }
+    .contact-form {
+      padding: 20px;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+    
+    button.submit-btn {
+      font-size: 14px;
+    }
+  }
+  

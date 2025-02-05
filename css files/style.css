@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body, html {
+    overflow-x: hidden; 
+}
+.home-section{
+    width: 100%;
+    height: 400px;
+    background-color:#ffb3c6 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Start from below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at normal position */
+    }
+}
+.home-section .content{
+    width: 40%;
+    font-weight: bold;
+    font-size: 30px;
+    color: aliceblue;
+    animation: fadeIn 1s ease-out 0.5s;
+ 
+}
+.home-section .content button{
+    border-color: #ffb3c6;
+    padding: 10px;
+    background: white;
+    color: #fb6f92;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    animation: fadeIn 1s ease-out 0.5s;
+
+}
+.home-section .image img {
+      height: 400px;
+      width: 100%;
+}
+@media (max-width: 768px) {
+    .home-section .content {
+        width: 50%; /* Make content take 50% of the width */
+        font-size: 24px; /* Reduce font size */
+    }
+    .home-section .image img {
+        height: 300px; /* Reduce image height */
+    }
+}
+@media (max-width: 500px) {
+    .home-section {
+        flex-direction: column; /* Stack content and image vertically */
+        height: auto; /* Adjust height to fit content */
+        padding: 20px; /* Add padding for mobile */
+    }
+    .home-section .content {
+        width: 100%; 
+        font-size: 20px; 
+        text-align: center; 
+    }
+    .home-section .image img {
+        height: 250px; 
+        width: 100%; 
+    }
+    .home-section .content button {
+        width: 100%; 
+        margin-top: 10px;
+    }
+}
+
+
+                 /* Card Section  */
+#card-section{
+    width: 100%;
+    height: auto;
+    background-color: #ffe5d9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    animation: fadeIn 1s ease-out 0.5s;
+
+
+}                 
+.cards{
+    margin: 20px;
+    width: 20%;
+    height: auto;
+    background-color: white;
+    border-radius: 2px solid white;
+    border-radius: 30px;
+    animation: fadeIn 1s ease-out 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s ease;
+
+}
+.cards:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 15px rgba(247, 60, 203, 0.2)};
+.cards h1{
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+    color:#3E1F12;
+    font-size: 30px;
+
+
+}
+.cards img{
+    width: 100%;
+    border-radius: 30px;
+    height: 250px;
+
+}
+@media (max-width: 1200px) {
+    .cards {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cards {
+        width: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    .cards {
+        width: 100%;
+    }
+}
+ 
+
+
+/* Basic Styling for Discount Banner */
+.discount-banner {
+    background-color: #ff6600; /* Bright orange to attract attention */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discount-text {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.banner-button {
+    background-color: white;
+    color: #ff6600;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+    background-color: #ff9e4b;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .discount-banner {
+        padding: 10px;
+    }
+
+    .discount-text {
+        font-size: 1.2rem;
+    }
+
+    .banner-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
