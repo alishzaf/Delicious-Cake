@@ -2,14 +2,14 @@
                 //  Navbar Section 
  document.getElementById('nav').innerHTML+=
  ` <div class="logo">
- <img src="images/Logo.png" alt="">
+ <img src="images/Logo.webp" alt="">
 </div>
 <div class="nav-items ">
  <ul>
      <li><a href="Contact.html">Contact Us</a></li>
      <li><a href="about.html">About Us</a></li>
      <li><a href="cakes.html">Cake's</a></li>
-     <li><a href="first.html">Home</a></li>
+     <li><a href="index.html">Home</a></li>
  </ul>
 </div>
 <div class="links">
@@ -73,35 +73,35 @@
              //    Main cards Section
 let obj= [
     {
-        Card_image:'images/c1.jpg',
+        Card_image:'images/c1.webp',
         Card_caption:'Sweeten Your Day with Our Heavenly Cakes',
     },
     {
-        Card_image:'images/c2.jpg',
+        Card_image:'images/c2.webp',
         Card_caption:'Sweet treats to make your day special.',
     },
     {
-        Card_image:'images/c3-removebg-preview.png',
+        Card_image:'images/c3-removebg-preview.webp',
         Card_caption:"Indulge in the finest, freshest cakes.",
     },
     {
-        Card_image:'images/c4.jpg',
+        Card_image:'images/c4.webp',
         Card_caption:'Celebrate life’s moments with our exquisite cakes.',
     },
     {
-        Card_image:'images/c5.png',
+        Card_image:'images/c5.webp',
         Card_caption:'Fluffy, sweet cupcakes to brighten your day',
     },
     {
-        Card_image:'images/c6.jpg',
+        Card_image:'images/c6.webp',
         Card_caption:'Cupcakes that make every occasion sweeter',
     },
     {
-        Card_image:'images/c7.png',
+        Card_image:'images/c7.webp',
         Card_caption:'Tiny treats, big flavor in every bite',
     },
     {
-        Card_image:'images/c8.png',
+        Card_image:'images/c8.webp',
         Card_caption:'A little sweetness in every cupcake bite',
     },
 ]

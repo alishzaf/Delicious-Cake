@@ -8,7 +8,7 @@ body, html {
 }
                   /* Banner Section  */
 .about-banner{
-   background-image: url('../images/b2.jpg');
+   background-image: url('../images/b2.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
