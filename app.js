@@ -33,10 +33,10 @@
         <div class="footer-links">
             <h4>Quick Links</h4>
             <ul>
-                <li><a href="/about">About Us</a></li>
-                <li><a href="/shop">Shop</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/blog">Blog</a></li>
+                <li><a href="index.html">home</a></li>
+                <li><a href="cakes.html">cake's</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
 
